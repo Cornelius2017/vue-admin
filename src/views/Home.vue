@@ -43,7 +43,7 @@
         <v-divider></v-divider>
             <v-container class="mt-5">
                 <v-row>
-                    <v-col cols="12" sm="4">
+                    <v-col cols="12" lg="4" md="6" class="my-2">
                         <v-hover v-slot="{hover}" opeen-delay="200">
                             <v-card color="cyan darken-1" :elevation="hover ? 16 : 2">
                                 <v-row>
@@ -64,14 +64,14 @@
                                             </v-list-item-content>
                                         </v-list-item>
                                     </v-col>
-                                    <v-col cols="12" sm="4">
+                                    <v-col cols="12" sm="4" class="d-none d-sm-block">
                                         <v-img width="100" height="100" src="wallet.png" class="ml-n10 mt-6"></v-img>
                                     </v-col>
                                 </v-row> 
                             </v-card>   
                         </v-hover>
                     </v-col>
-                    <v-col cols="12" sm="4">
+                    <v-col cols="12" lg="4" md="6" class="my-2">
                         <v-hover v-slot="{hover}" open-delay="200">
                             <v-card color="pink darken-1" :elevation="hover?16:2">
                                 <v-row>
@@ -94,14 +94,14 @@
                                             </v-list-item-content>
                                         </v-list-item> 
                                     </v-col>
-                                    <v-col cols="12" sm="4">
+                                    <v-col cols="12" sm="4" class="d-none d-sm-block">
                                         <v-img width="100" height="100" src="wallet.png" class="ml-n10 mt-6"></v-img>
                                     </v-col>
                                 </v-row>
                             </v-card>
                         </v-hover>
                     </v-col>
-                    <v-col cols="12" sm="4">
+                    <v-col cols="12" lg="4" md="6" class="my-2">
                         <v-hover v-slot="{hover}" open-delay="200">
                             <v-card color="orange darken-1" :elevation="hover ? 16 : 2">
                                 <v-row>
@@ -122,7 +122,7 @@
                                         </v-list-item-content>
                                         </v-list-item>
                                     </v-col>
-                                    <v-col cols="12" sm="4">
+                                    <v-col cols="12" sm="4" class="d-none d-sm-block">
                                         <v-img width="100" height="100" src="wallet.png" class="ml-n10 mt-6"></v-img>
                                     </v-col>
                                 </v-row>
@@ -135,7 +135,7 @@
                     
                 </v-row>
                 <v-row>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" md="6">
                         <v-card>
                             <v-app-bar flat color="rgba(0,0,0,0)">
                                 <v-toolbar-title class="title black--text pl-0 mr-2">
@@ -148,7 +148,7 @@
                             <v-sparkline :fill="fill" :line-width="width" :padding="padding" :smooth="radius || false" :value="value" auto-draw color="deep-purple"></v-sparkline>
                         </v-card>
                     </v-col>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" md="6">
                         <v-card>
                             <v-app-bar flat color="rgba(0,0,0,0)">
                                 <v-toolbar-title class="title black--text pl-0 ml-2">
@@ -187,7 +187,7 @@
                             </v-app-bar>
                         </v-card>
                     </v-col>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" md="6">
                         <v-card height="180px">
                             <v-row>
                                 <v-col cols="12" sm="4">
@@ -218,11 +218,11 @@
                             </v-row>
                         </v-card>
                     </v-col>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" md="6">
 
                                     <v-card>
                                         <v-row>
-                                            <v-col cols="12" sm="6" class="border">
+                                            <v-col cols="12" md="6" class="border">
                                                 <v-list-item three-line>
                                                     <v-list-item-content>
                                                         <div class="mb-4">
@@ -244,7 +244,7 @@
                                                     </v-list-item-content>
                                                 </v-list-item>
                                             </v-col>
-                                            <v-col cols="12" sm="6" align="center">
+                                            <v-col cols="12" md="6" align="center">
                                                 <v-list-item two-line class="mt-10">
                                                         <v-list-item-title class="headline mb-1 black--text">
                                                             $8520.50
